@@ -1597,3 +1597,22 @@ img.hush {
         width: 283px;
     }
 }
+
+/* General remix styles */
+.link-detail-wrapper {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    font-style: Arial, sans-serif;
+    font-size: 0.8em;
+    background: #eee;
+    color: #999;
+    padding: 10px;
+    display: block;
+}
+
+    .link-title {
+        font-weight: bold;
+        color: green;
+        text-transform: uppercase;
+        display: block;
+    }
