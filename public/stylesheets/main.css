@@ -798,7 +798,8 @@ ol.tabs li.selected, ol.tabs li.selected:hover {
     color: #888;
 }
 
-ol.tabs li:hover, .action-buttons li:hover {
+ol.tabs li:hover, .action-buttons li:hover,
+ol.tabs li:focus, .action-buttons li:focus {
     background-color: #111;
     color: #eee;
 }

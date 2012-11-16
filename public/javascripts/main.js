@@ -138,7 +138,7 @@ define(['jquery', 'appnet', 'friends', 'user', 'jquery.caret'],
   };
 
   /* Feed functionality */
-  tabs.on('click', function(ev) {
+  function tabReaction(ev) {
     var self = $(ev.target);
 
     switch (true) {
@@ -177,6 +177,12 @@ define(['jquery', 'appnet', 'friends', 'user', 'jquery.caret'],
           appnet.getMyFeed();
         });
         break;
+    }
+  }
+  tabs.on('click', tabReaction);
+  tabs.on('keypress', function(ev) {
+    if(ev.keyCode == RETURN_KEYCODE) {
+      tabReaction(ev);
     }
   });
 
