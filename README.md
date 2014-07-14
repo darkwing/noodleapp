@@ -18,7 +18,7 @@ Ignore everything below.
 
 ## Installation instructions (if you want to hack on the code)
 
-# SIGN UP TO [http://app.net](http://app.net) WITH A DEVELOPER ACCOUNT
+### SIGN UP TO [http://app.net](http://app.net) WITH A DEVELOPER ACCOUNT
 
 ### Create the app.net app
 
