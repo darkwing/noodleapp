@@ -18,9 +18,9 @@ Ignore everything below.
 
 ## Installation instructions (if you want to hack on the code)
 
-### SIGN UP TO [http://app.net](http://app.net) WITH A DEVELOPER ACCOUNT
+### 1. SIGN UP TO [http://app.net](http://app.net) WITH A DEVELOPER ACCOUNT
 
-### Create the app.net app
+### 2. Create the app.net app
 
 > go to [https://alpha.app.net/developer/apps/](https://alpha.app.net/developer/apps/)
 
@@ -38,11 +38,11 @@ Ignore everything below.
 
 ![AppNetSettings](http://i.pau.lk/Jwgz/Screen%20Shot%202012-10-05%20at%202.33.17%20PM.png)
 
-### Edit /etc/hosts
+### 3. Edit /etc/hosts
 
 > Add the following: 127.0.0.1 dev.noodletalk.org
 
-### Clone the repository
+### 4. Clone the repository
 
 > git clone git://github.com/ednapiranha/noodleapp.git
 
@@ -60,7 +60,7 @@ Install node through the website http://nodejs.org/#download
 
 > npm install
 
-### Run the site
+### 5. Run the site
 
 > node app.js
 
