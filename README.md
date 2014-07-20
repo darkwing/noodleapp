@@ -40,34 +40,34 @@ Ignore everything below.
 
 ### 3. Edit /etc/hosts
 
-> Add the following: 127.0.0.1 dev.noodletalk.org
+> Add the following: `127.0.0.1 dev.noodletalk.org`
 
 ### 4. Clone the repository
 
-> git clone git://github.com/ednapiranha/noodleapp.git
+> `git clone git://github.com/ednapiranha/noodleapp.git`
 
 Install node through the website http://nodejs.org/#download
 
-> cd noodleapp
+> `cd noodleapp`
 
-> cp local.json-dist local.json
+> `cp local.json-dist local.json`
 
-> change the domain in local.json to: http://dev.noodletalk.org
+> change the domain in `local.json` to: http://dev.noodletalk.org
 
-> copy and paste your app.net client id and secret to local.json under 'appnet_consumer_key' and 'appnet_consumer_secret'
+> copy and paste your app.net client id and secret to `local.json` under `'appnet_consumer_key'` and `'appnet_consumer_secret'`
 
-> adjust redis databases accordingly on local.json
+> adjust redis databases accordingly on `local.json`
 
-> npm install
+> `npm install`
 
 ### 5. Run the site
 
-> node app.js
+> `node app.js`
 
 > go to http://dev.noodletalk.org:3000
 
 ## Tests
 
-> make test
+> `make test`
 
 Current status on `master`: [![Build Status](https://secure.travis-ci.org/ednapiranha/noodleapp.png?branch=master)](http://travis-ci.org/ednapiranha/noodleapp)
